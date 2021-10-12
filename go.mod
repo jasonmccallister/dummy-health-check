@@ -1,3 +1,3 @@
-module github.com/jasonmccallister/dummy-healthcheck
+module github.com/jasonmccallister/dummy-health-check
 
 go 1.17

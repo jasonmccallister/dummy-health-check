@@ -3,7 +3,7 @@ FROM golang:1.17-alpine as builder
 RUN mkdir /build
 ADD . /build/
 WORKDIR /build
-RUN GOOS=linux go build -a -o health-check .
+RUN GOOS=linux go build -o health-check .
 
 FROM alpine:3
 RUN mkdir /app
